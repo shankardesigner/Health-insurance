@@ -1,0 +1,33 @@
+.tableHeaderTitle{
+    font-weight: bold !important;
+    font-size: 17px !important;
+    line-height: 21px !important;
+
+    color: #3D3E64 !important;
+}
+
+.tableHeaderSubTitle{
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #3D3E64 !important;
+    
+}
+
+.rowHeaderTitle{
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+
+    color: #3D3E64 !important;
+}
+
+.rowHeaderSubTitle{
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+    text-decoration-line: underline !important;
+    cursor: pointer;
+
+    color: #3D3E64 !important;
+}

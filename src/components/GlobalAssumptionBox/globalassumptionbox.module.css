@@ -1,0 +1,48 @@
+.assumptionBox {
+  background: #ffffff;
+  padding: 22px 24px 26px;
+  margin-bottom: 20px;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #939698;
+}
+
+.selectedAssumptionBox {
+  background: #5a2c6d;
+}
+
+.selectedAssumptionBox * {
+  color: #ffffff !important;
+}
+
+.selectedAssumptionBox button {
+  border-color: #fff !important;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3d3e64;
+}
+
+.subtitle {}
+
+.value {
+  font-weight: 500;
+  /* font-size: 18px; */
+line-height: 21px;
+color: #333333;
+display: block;
+margin: 3px 0 0;
+}
+
+.bigAmount {
+  font-size: 28px;
+  line-height: 33px;
+  color: #5A2C6D;
+  margin: 3px 0 17px;
+}

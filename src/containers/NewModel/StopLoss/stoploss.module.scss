@@ -1,0 +1,94 @@
+.nemoStoplossContainer {
+	padding: 25px 24px !important;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	// margin: 20px;
+	// box-shadow: 5px 20px 40px rgba(103, 115, 154, 0.1);
+	// border-radius: 14px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	// overflow: hidden;
+
+	.tabRoot {
+		color: #6da2a8;
+	}
+	.indicator {
+		background: #6da2a8;
+	}
+
+	.tabContainer {
+		padding: 15px 0 !important;
+		width: 100%;
+	}
+
+	.tabHeading {
+		font: 400 18px/23px "Roboto", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.02em;
+		color: #4d5154;
+
+		&.selected {
+			color: #6da2a8;
+			font-weight: 600;
+		}
+	}
+}
+
+.heading {
+	font: 600 18px/23px Roboto, Arial, Helvetica, sans-serif;
+	color: #06406d;
+	margin: 0 0 10px;
+}
+
+.inputHolder {
+	padding-left: 12px;
+	// padding-bottom: 35px;
+	// flex-basis: 45%;
+}
+
+.resultsArea {
+	background: #fefefe;
+	border: 1px solid #dcdcdc;
+	box-sizing: border-box;
+	border-radius: 14px;
+	padding: 20px 28px !important;
+	margin: 0 0 80px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #dcdcdc;
+}
+
+.nextBtn,
+.prevBtn {
+	min-width: 193px !important;
+	margin-left: 15px !important;
+	border-radius: 3px !important;
+}
+
+.prevBtn {
+	background: #fff !important;
+	color: #06406d;
+
+	&:hover {
+		background: #06406d !important;
+		color: #fff !important;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+	}
+}
+
+.nextBtn {
+	background: #06406d !important;
+	color: #fff !important;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25) !important;
+
+	&:hover {
+		background: #fff !important;
+		color: #06406d !important;
+	}
+}
+
+.inputTable {
+	padding: 0 0 25px;
+}

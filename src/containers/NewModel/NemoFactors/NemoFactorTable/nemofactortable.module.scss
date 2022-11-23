@@ -1,0 +1,91 @@
+.tableHeaderTitle {
+  font-weight: bold !important;
+  font-size: 17px !important;
+  line-height: 21px !important;
+
+  color: #3d3e64 !important;
+}
+
+.tableHeaderSubTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #5a2c6d;
+}
+
+.rowHeaderTitle {
+  font-weight: bold !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+
+  color: #3d3e64 !important;
+}
+
+.rowHeaderSubTitle {
+  font-weight: 300 !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  text-decoration-line: underline !important;
+  cursor: pointer;
+
+  color: #3d3e64 !important;
+}
+
+.tableContainer {
+  background: #fff;
+  box-shadow: none !important;
+}
+
+.nemoTableCell {
+  border: 0 !important;
+  padding: 8px 39px !important;
+}
+
+.tableHead {
+  background: none !important;
+}
+
+.nemoFactorsCheckboxWrapper {
+  background: #ffffff;
+  border: 1px solid #DCDCDC;
+  box-shadow: 1px 6px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.changeWrapperBorder {
+    border-color: #06406D;
+}
+
+.headerTitle {
+  font-weight: 500 !important;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333 !important;
+}
+
+.headerSubtitle {
+  display: block;
+  font-weight: 400 !important;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6f7376 !important;
+}
+
+.nemoInfoHolder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nemoInfoTextHolder {
+    margin-left: 15px;
+}
+
+.iconButton {
+  margin-right: 5px !important;
+  padding: 8px !important;
+  border-radius: 50% !important;
+  border: 1px solid #000 !important;
+}

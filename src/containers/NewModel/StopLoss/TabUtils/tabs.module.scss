@@ -1,0 +1,26 @@
+.root {
+	display: inline-flex !important;
+	padding: 0 !important;
+	margin: 0 0 25px;
+	min-height: auto !important;
+	background: #fff;
+	border: 1px solid #b9baba;
+	border-radius: 5px;
+	//height: 4.1ch;
+	text-align: justify;
+}
+
+.tabRoot {
+	font: 400 14px/18px Roboto, sans-serif;
+	color: #06406d;
+}
+
+.indicator {
+	display: none;
+}
+
+.selected {
+	background: #64b6f5 !important;
+	color: #fff !important;
+	font-weight: 600 !important;
+}

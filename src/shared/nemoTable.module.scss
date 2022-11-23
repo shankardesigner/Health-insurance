@@ -1,0 +1,114 @@
+// Generic styles for the tables ie. NemoTable
+.nemoTableContainer {
+	background: #ffffff !important;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2) !important;
+	border-radius: 3px !important;
+	// border: 0 !important;
+
+	thead {
+		position: relative;
+		z-index: 1;
+		background: rgb(239 234 241);
+
+		th,
+		td {
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 19px;
+			color: #5a2c6d;
+			padding: 17px 15px;
+		}
+	}
+
+	tbody {
+		td,
+		th {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 16px;
+			color: #333333;
+			padding: 20px 10px 16px;
+
+			&:last-child {
+				color: #333333 !important;
+			}
+		}
+	}
+}
+
+.tableWithSideColumn {
+	tbody {
+		td,
+		th {
+			&:first-child {
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 19px;
+			}
+		}
+	}
+}
+
+@mixin tableFooterMixin {
+	position: relative;
+	background: #8c6c99;
+}
+
+.tableFooter {
+	@include tableFooterMixin;
+	td,
+	th {
+		color: #fff !important;
+		font-weight: bolder !important;
+
+		& > * {
+			color: #fff !important;
+			font-weight: bolder !important;
+			font-size: 15px !important;
+		}
+	}
+}
+
+.tableWithFooter {
+	tbody {
+		// tfoot,
+		tr:last-child {
+			td,
+			th,
+			td span {
+				color: #fff !important;
+				font-weight: bolder !important;
+				font-size: 15px !important;
+			}
+			@include tableFooterMixin;
+		}
+	}
+}
+
+.stickyHeader,
+.stickyBoth {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	overflow: auto !important;
+	max-height: 410px;
+
+	thead {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		z-index: 2;
+	}
+}
+
+.stickyBoth {
+	border-bottom: 0 !important;
+
+	tfoot,
+	tbody tr:last-child {
+		position: -webkit-sticky;
+		position: sticky;
+		bottom: 0;
+		z-index: 2;
+	}
+}

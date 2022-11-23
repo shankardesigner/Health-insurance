@@ -1,0 +1,33 @@
+.nestedMenuItems{
+  display: flex !important;
+  flex-direction: column !important;
+  /* justify-content: flex-start; */
+  align-items: flex-start !important;
+}
+
+.topMargin{
+  margin-top: 15px;
+}
+
+.textColorPrimary{
+  color: #71DBB6 !important;
+}
+
+.indicator{
+  background-color: #64B6F5 !important;
+  height: 4px !important;
+}
+
+.editedBtn{
+  border: 1px solid #C5C5D1;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #8A8BAA;
+
+  padding: 1px 5px 1px 5px;
+}

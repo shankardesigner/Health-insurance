@@ -1,0 +1,33 @@
+.profileIcon {
+    margin-right: 15px;
+}
+  
+.menuTextGrid1 {
+    width: 50%;
+}
+
+.heading {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  .time {
+    margin-left: auto;
+  }
+  .message {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  
+  

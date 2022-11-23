@@ -1,0 +1,17 @@
+@keyframes spinning {
+  0% {
+      transform: scale(1);
+  }
+
+  90% {
+      transform: scale(1.5);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
+
+.spinning {
+  animation: spinning 0.3s;
+}

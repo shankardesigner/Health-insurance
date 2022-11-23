@@ -1,0 +1,156 @@
+/* json view: start */
+.jsonview-code {
+  display: block;
+  padding: 0.5rem;
+  /* background-color: rgb(40, 44, 52); */
+  color: rgb(0, 185, 161);
+  /* overflow-x: scroll; */
+  border-radius: 5px;
+}
+
+.jsonview-line { white-space: nowrap; }
+.jsonview-hi-line { white-space: nowrap; background-color: rgb(80, 80, 95); }
+
+.jsonview-str { color: rgb(0, 114, 228); }
+.jsonview-num { color: rgb(209, 209, 0); }
+.jsonview-bool { color: rgb(204, 0, 204); }
+.jsonview-null { color: rgb(167, 0, 167); }
+.jsonview-prop { color: rgb(241, 161, 0); }
+
+.jsonview-ln {
+  display: inline-block;
+  padding-right: 1rem;
+  color: rgb(194, 0, 0);
+  text-align: right;
+  user-select: none;
+}
+
+.jsonview-code{
+  text-align: left;
+}
+
+/* json view: end */
+
+/* graph legend */
+.my-legend .legend-title {
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 90%;
+  }
+.my-legend .legend-scale ul {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  float: left;
+  list-style: none;
+  }
+.my-legend .legend-scale ul li {
+  font-size: 80%;
+  list-style: none;
+  margin-left: 0;
+  line-height: 18px;
+  margin-bottom: 2px;
+  }
+.my-legend ul.legend-labels li span {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 0;
+  border: 1px solid #999;
+  }
+.my-legend .legend-source {
+  font-size: 70%;
+  color: #999;
+  clear: both;
+  }
+.my-legend a {
+  color: #777;
+  }
+
+  .recharts-legend-wrapper .customized-legend {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .recharts-legend-wrapper .customized-legend .legend-item {
+    flex-basis: 50%;
+  }
+
+/* graph legend: end */
+
+.sticky-footer .containerHolder  > div {
+  overflow: hidden;
+}
+
+/* Macbook type scroll bars */
+/* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+/* total width */
+/* ::-webkit-scrollbar {
+  background-color:#fff;
+  position: absolute;
+  width:16px
+} */
+
+/* background of the scrollbar except button or resizer */
+::-webkit-scrollbar-track {
+  background-color:#fff
+}
+::-webkit-scrollbar-track:hover {
+  background-color:#f4f4f4
+}
+
+/* scrollbar itself */
+::-webkit-scrollbar-thumb {
+  background-color:#babac0;
+  border-radius:16px;
+  border:5px solid #fff
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color:#a0a0a5;
+  border:4px solid #f4f4f4
+}
+
+/* set button(top and bottom of the scrollbar) */
+::-webkit-scrollbar-button {display:none}
+
+.MuiTooltip-tooltip.bootstrap-tooltip {
+  font-size: 14px !important;
+    line-height: 16px !important;
+    width: auto !important;
+    padding: 8px !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.fav-button {
+  /* padding: 0 !important; */
+  /* width: 16px; */
+  /* height: 16px; */
+  overflow: hidden;
+}
+
+.sticky-button .containerHolder  > div {
+  position: relative;
+}
+
+.sticky-button .containerHolder  > div .addModalHolder {
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: -30px;
+  background: #FFF;
+  text-align: right;
+  border-top: 1px solid #dcdcdc;
+  padding: 15px 0;
+  margin: 0 11px -100px;
+}
+
+/* .sticky-button .containerHolder  > div .addModalHolder */

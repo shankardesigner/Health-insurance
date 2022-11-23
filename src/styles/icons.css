@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "nemoIcon";
+  src: 
+  /* url("./fonts/icomoon.ttf?ju8otx") format("truetype"), */
+    /* url("./fonts/icomoon.woff?ju8otx") format("woff"), */
+    url("./fonts/icomoon.svg?ju8otx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="nemo-"],
+[class*=" nemo-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "nemoIcon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nemo-notification:before {
+  content: "\e901";
+}
+.nemo-setting:before {
+  content: "\e902";
+}
+.nemo-ticket:before {
+  content: "\e903";
+}
+.nemo-discount:before {
+  content: "\e904";
+}
+.nemo-star:before {
+  content: "\e905";
+}
+.nemo-wallet:before {
+  content: "\e906";
+}
+.nemo-list:before {
+  content: "\e907";
+}
+.nemo-chart:before {
+  content: "\e908";
+}
+.nemo-home:before {
+  content: "\e900";
+}

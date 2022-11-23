@@ -1,0 +1,27 @@
+.percentageText {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+}
+
+.percentage {
+	display: block;
+	color: #5a2c6d;
+	font-weight: 600;
+	width: 100%;
+	text-align: center;
+	margin-top: 2px;
+}
+
+.pieChartHolder {
+	position: relative;
+	width: 271;
+	height: 223;
+	border: 1px solid #dcdcdc;
+	padding: 20px 58px 0 59px;
+
+	@media screen and (max-width: 1025px) {
+		padding: 15px;
+	}
+}

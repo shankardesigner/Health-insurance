@@ -1,0 +1,29 @@
+.toggleBox {
+  padding: 0 0 17px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #939698;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.toggleBox:last-child {
+  border: 0;
+}
+
+.toggleBoxTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333;
+  display: block;
+  margin: 0 0 6px;
+}
+
+.contentBox {
+  /* padding-left: 5px; */
+}
+
+.fullWidth {
+  width: 100%;
+}

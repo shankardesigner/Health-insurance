@@ -1,0 +1,31 @@
+.logoPlain{
+    width: 140px;
+    height: 26px;
+}
+
+.divider{
+    margin-left: 6px;
+    margin-right: 6px;
+    height: 26px;
+    width: 4px;
+}
+
+/* .backArrowIcon{
+    height: 36px;
+} */
+
+.moduleIcon{
+    margin-right: 5px;
+}
+
+.hamburgerMenuIcon{
+    height: 36px;
+}
+
+.backButtonIcon{
+    height: 24px;
+}
+
+.appbar{
+    padding-top: 15px;
+}

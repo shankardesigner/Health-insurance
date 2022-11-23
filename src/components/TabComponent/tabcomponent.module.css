@@ -1,0 +1,38 @@
+.nestedMenuItems {
+	display: flex !important;
+	flex-direction: column !important;
+	/* justify-content: flex-start; */
+	align-items: flex-start !important;
+}
+
+.topMargin {
+	margin-top: 15px;
+}
+
+.textColorPrimary {
+	color: #71dbb6 !important;
+}
+
+.indicator {
+	/* background-color: #64B6F5 !important; */
+	background: transparent !important;
+	height: 4px !important;
+	z-index: 4;
+}
+
+.indicator::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 50px;
+	height: 100%;
+	background-color: #64b6f5 !important;
+	display: block;
+	margin-left: -25px;
+}
+
+.editedBtn {
+	font-weight: normal;
+	color: #d83d3d;
+}

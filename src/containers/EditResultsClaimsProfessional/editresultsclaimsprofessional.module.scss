@@ -1,0 +1,19 @@
+.tabWrapper {
+  overflow: hidden !important;
+
+  & > div {
+    box-shadow: none;
+    background: none;
+    height: 100%;
+  }
+
+  div[role='tabpanel'] {
+    padding-bottom: 0 !important;
+    height: calc(100% - 80px) !important;
+
+    & > div {
+      display: flex;
+      height: 100%;
+    }
+  }
+}

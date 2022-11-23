@@ -1,0 +1,134 @@
+.tableContainer {
+	// margin: 0 0 15px !important;
+	box-shadow: none !important;
+	border: 0 !important;
+	
+	table {
+		border-bottom: 0 !important;
+	}
+
+	th {
+		background: rgba(90, 44, 109, 0.1);
+		padding: 22px 3px 16px;
+		color: #5a2c6d !important;
+
+		@media screen and (max-width: 1025px) {
+			font-size: 14px;
+			padding: 10px 5px;
+		}
+
+		&:first-child {
+			width: 4.6%;
+		}
+
+		&:nth-child(2) {
+			width: 20.5%;
+		}
+
+		&:nth-child(3) {
+			text-align: left !important;
+			width: 7%;
+		}
+
+		&:nth-child(5) {
+			width: 12%;
+		}
+
+		&:nth-child(6) {
+			text-align: left !important;
+			padding-left: 4%;
+			width: 12%;
+		}
+		&:nth-child(7) {
+			text-align: left !important;
+			padding-left: 2%;
+			width: 15%;
+		}
+		&:nth-child(8) {
+			text-align: left !important;
+			padding-left: 2%;
+			width: 16%;
+		}
+		&:nth-child(9) {
+			text-align: left !important;
+			//padding-left: 2%;
+			width: 3%;
+		}
+	}
+
+	td {
+		padding: 9px 3px;
+		max-width: 196px;
+		border-bottom: 1px solid #dcdcdc !important;
+		letter-spacing: -0.1px;
+
+		&:nth-child(3) {
+			text-align: left !important;
+		}
+
+		&:nth-child(4) span {
+			display: flex !important;
+			align-items: center;
+		}
+		&:nth-child(5) {
+			text-align: right !important;
+			padding-left: 5%;
+			width: 12%;
+		}
+
+		&:nth-child(6) {
+			text-align: left !important;
+			padding-left: 4%;
+			width: 12%;
+		}
+
+		&:nth-child(7) {
+			text-align: right !important;
+			padding-right: 1%;
+		}
+		&:nth-child(8) {
+			text-align: center !important;
+			padding-left: 1%;
+		}
+
+		& > span {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		@media screen and (max-width: 1025px) {
+			font-size: 13px;
+
+			& > div {
+				padding: 2px;
+				margin-left: 2px;
+			}
+		}
+
+		& > * {
+			// margin: 5px;
+		}
+	}
+
+	tfoot {
+		// border-bottom: 1px solid #dcdcdc;
+		 td {
+			border: 0 !important;
+		 }
+	}
+}
+
+.favButton {
+	padding: 0 !important;
+	margin: -1px 3px 0 0 !important;
+}
+
+.draft,
+.done {
+	display: flex !important;
+	align-items: center;
+
+	img {
+		margin-right: 5px;
+	}
+}

@@ -1,0 +1,37 @@
+.selectAssumptionTitle{
+    margin-bottom: 20px !important;
+    color: #5A2C6D !important;
+}
+
+.halfwidth{
+    width: 50%;
+}
+
+.itemGap{
+    padding: 5px;
+}
+
+.dropdownContainer{
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+.dropdownGrid{
+    margin-top: 50px;
+}
+
+.summaryBox{
+    background: #EFEFF0;
+    border-radius: 7px !important;
+    padding-left: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.summaryValue{
+    float: right;
+    margin-right: 15px;
+}
+
+/* .formGroup {
+} */
